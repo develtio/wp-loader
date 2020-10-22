@@ -4,9 +4,9 @@
 Examples
 ------------
 ```php
-use Develtio\WP\Loader\SampleLoader;
+use Develtio\WP\Loader\TypesLoader;
 
-(new SampleLoader(__DIR__ . '/post-types/*.php'))->run();
+(new TypesLoader(__DIR__ . '/post-types/*.php'))->run();
 ```
 
 Group
@@ -16,7 +16,7 @@ use Develtio\WP\Loader\GroupLoader;
 use Develtio\WP\Loader\SampleLoader;
 
 $gl = new GroupLoader();
-$gl->add(new SampleLoader(__DIR__ . '/post-types/*.php'));
-$gl->add(new SampleLoader(__DIR__ . '/taxonomies/*.php'));
+$gl->add(new TypesLoader(__DIR__ . '/post-types/*.php'));
+$gl->add(new TypesLoader(__DIR__ . '/taxonomies/*.php'));
 $gl->run();
 ```
