@@ -3,7 +3,7 @@
   "type": "library",
   "license": "MIT",
   "description": "Loader by develtio.com",
-  "keywords": ["wordpress", "helpers", "development", "loader"],
+  "keywords": ["wordpress", "development", "loader"],
   "homepage": "https://develtio.com",
   "authors": [
     {
@@ -16,6 +16,9 @@
       "homepage": "https://tomaszrusiecki.pl"
     }
   ],
+  "require": {
+    "php": ">=7.2"
+  },
   "config": {
     "optimize-autoloader": true
   },

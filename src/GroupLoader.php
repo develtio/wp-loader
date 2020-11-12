@@ -14,9 +14,9 @@ final class GroupLoader
     }
 
     /**
-     * @param Loader $loader
+     * @param LoaderInterface $loader
      */
-    public function add(Loader $loader): void
+    public function add(LoaderInterface $loader): void
     {
         $this->loaders[] = $loader;
     }

@@ -1,6 +1,12 @@
 # Develtio - Loader
 **Loader** by [develtio.com](https://develtio.com)
 
+Installation
+------------
+```
+composer require develtio/wp-loader
+```
+
 Examples
 ------------
 ```php
@@ -13,7 +19,7 @@ Group
 
 ```php
 use Develtio\WP\Loader\GroupLoader;
-use Develtio\WP\Loader\SampleLoader;
+use Develtio\WP\Loader\TypesLoader;
 
 $gl = new GroupLoader();
 $gl->add(new TypesLoader(__DIR__ . '/post-types/*.php'));

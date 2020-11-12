@@ -2,7 +2,7 @@
 
 namespace Develtio\WP\Loader;
 
-abstract class AbstractLoader implements Loader
+abstract class AbstractLoader implements LoaderInterface
 {
     protected $pattern;
 
